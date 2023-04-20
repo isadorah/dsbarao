@@ -1,0 +1,43 @@
+body{
+     background:#d43d3dd2;
+     margin:0;
+}
+.topo{
+    background:#FFF
+     height 200px;
+     padding: 30px;
+    color: #860e0e;
+
+}
+.topo ul{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    background: #5e5a5a;
+    margin:0;
+}
+.topo li{
+    list-style:none;
+}
+.topo li a{
+    text-decoration:none;
+    color:#0b4705;
+    padding: 10px;
+    display: flex;
+}
+.topo li a:hover{
+    text-decoration: underline;
+}
+
+.corpo{
+   background: rgb(156, 108, 10);
+   text-align: center;
+    min-height: 400px;
+}
+
+.rodape{
+ background: rgba(36, 161, 165, 0.87);
+  height: 150px;
+ padding: 30px;
+ color: #FFF
+}
